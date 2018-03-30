@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Whack A Mole</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 </head>
 <body>
+    <p id = "title">Whack A Mole</p>
     <div id="container">
-        <audio id="sound" src="whack.mp3"></audio>
+        <audio id="sound" src="/assets/whack.mp3"></audio>
         <div id="dirt-box">
             <div class="row">
                 <div class="dirt"></div>
@@ -28,6 +30,8 @@
             </div>
         </div>
     </div>
+    <div id = "message"></div>
+    <div id = "scoreDisplay">Score: 0</div>
     <script src="app.js"></script>
 </body>
 </html>
